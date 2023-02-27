@@ -1,4 +1,4 @@
-
+import java.io.WriteAbortedException;
 
 public class Lab {
     /**
@@ -43,6 +43,18 @@ public class Lab {
         String buildingString = "";
 
 //        code here
+        for(int i = start; i < end; i++) {
+            System.out.println(i);
+            buildingString = buildingString + i + " ";
+        }
+        // // for part 1, write 
+        // int i = start;
+
+        // //for part 2, write
+        // i < end;
+
+        // //for part 3, write
+        // i++;
 
         return buildingString;
     }
